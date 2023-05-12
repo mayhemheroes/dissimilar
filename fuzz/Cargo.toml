@@ -18,4 +18,16 @@ path = "fuzz_targets/dissimilar_diff.rs"
 test = false
 doc = false
 
+[[bin]]
+name = "fuzz_diff"
+path = "fuzz_targets/fuzz_diff.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "fuzz_chunks"
+path = "fuzz_targets/fuzz_chunks.rs"
+test = false
+doc = false
+
 [workspace]
