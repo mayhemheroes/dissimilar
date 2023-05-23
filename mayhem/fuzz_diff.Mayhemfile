@@ -1,0 +1,5 @@
+project: dissimilar
+target: fuzz-diff
+
+cmds:
+    - cmd: /fuzz_diff

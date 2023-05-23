@@ -1,0 +1,5 @@
+project: dissimilar
+target: fuzz-chunks
+
+cmds:
+    - cmd: /fuzz_chunks
